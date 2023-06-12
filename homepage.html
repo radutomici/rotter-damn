@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" type="text/css" href="homepage.css">
+    <a href="article.html">
+        <pre id="ascii-art"></pre>
+    </a>
+
+    <script>
+        function renderAsciiArt(art) {
+            const asciiArtElement = document.getElementById('ascii-art');
+            asciiArtElement.textContent = art;
+        }
+        const asciiArt = `< Rotter - damn! >`;
+
+    renderAsciiArt(asciiArt);
+
+    </script>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Rotter-damn</title>
+        <script src="ascii-morph.js"></script>
+    </head>
+    <body>
+        <section class="articles">
+            <article>
+                <a href="article.html">
+                    <h2>Article title</h2>
+                </a>
+                <p>article text</p>
+                <img src="https://p-hold.com/300/200" alt="">
+            </article>
+        </section>
+    </body>
+</html>
